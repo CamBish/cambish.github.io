@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI and Indigenous Language Technology Researcher | M.ASc in Electrical and Computer Engineering Candidate @ Queen's University
+subtitle: AI and Indigenous Language Technology Researcher | M.ASc in Computer Engineering and AI Candidate @ Queen's University
 
 profile:
   align: right
