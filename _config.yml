@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: CamBish # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
-mastodon_username: mastodon.social/@CAM/BISH! # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: mastodon.social/@cambish # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: Cam Bishop # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to connect with me is through my LinkedIn, or email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
