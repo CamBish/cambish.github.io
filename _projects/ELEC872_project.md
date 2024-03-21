@@ -30,7 +30,8 @@ This project explores the application of interpretable machine learning (ML) mod
 - **Address Dataset Limitations:** Explore methods to mitigate class imbalance and increase the overall sample size.
 - **Feature Extraction and Integration:** Use the developed sway-metric analysis as a feature extraction step for more complex deep learning models operating on time-series skeleton data.
 - **Clinical Validation:** Collaborate with healthcare professionals to validate the model's performance and potential for real-world application.
-
+#### Repository
+The code for this project is open-sourced under a MIT License. You can find the repository [here](https://github.com/CamBish/KINECAL-Fall-Risk-Assessment/tree/main).
 <!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
