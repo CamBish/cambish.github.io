@@ -1,14 +1,37 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: An Interpretable Machine Learning Approach to Sway-Metric Based Fall-Risk Assessment
+description: This project investigates the use of interpretable machine learning models to improve fall-risk assessment for seniors using more accessible technologies.
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
-category: work
+category: academic
 ---
 
-Every project has a beautiful feature showcase page.
+#### Overview
+This project explores the application of interpretable machine learning (ML) models to analyze sway metrics derived from markerless motion capture data. The goal is to develop an accessible and understandable tool to aid in fall-risk assessment, addressing challenges posed by traditional methods.
+#### Key Concepts
+- **Sway Metrics:** Quantitative measures of balance and stability derived from motion capture data.
+- **Interpretable Machine Learning:** ML models designed to explain their decision-making processes.
+- **Fall-Risk Assessment:** The process of identifying individuals at higher risk of injurious falls, particularly relevant for seniors.
+#### Methodology
+1. **Dataset:** Utilize the KINECAL dataset, containing sway metrics and clinical movement data.
+2. **Preprocessing:** Address missing values, normalize data, and consider dimensionality reduction (e.g., PCA).
+3. **Model Development:** Employ interpretable ML models (e.g., XGBoost, SVMs, Perceptron) for fall-risk classification.
+4. **Evaluation:** Assess performance using metrics like accuracy, F1-score, and ROC AUC, while carefully addressing class imbalance.
+#### Results
+- **Importance of Data Labelling:** Initial experiments revealed that the dataset's original labelling scheme is not ideal for direct fall-risk prediction.
+- **Model Selection:** Simpler models like Perceptron outperformed complex ones, likely due to the limited dataset size and potential overfitting issues.
+- **Preprocessing Impacts:** Optimal classifier performance was achieved when normalizing data before concatenation
+#### Significance
+- **Enhanced Interpretability:** Provides insights into how ML models arrive at fall-risk predictions.
+- **Accessibility:** Leverages sway metrics derived from cost-effective markerless motion capture.
+- **Future Directions:** Potential for integration with more complex deep learning models for enhanced capabilities.
+#### Next Steps
+- **Address Dataset Limitations:** Explore methods to mitigate class imbalance and increase the overall sample size.
+- **Feature Extraction and Integration:** Use the developed sway-metric analysis as a feature extraction step for more complex deep learning models operating on time-series skeleton data.
+- **Clinical Validation:** Collaborate with healthcare professionals to validate the model's performance and potential for real-world application.
+
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -78,4 +101,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
