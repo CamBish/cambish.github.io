@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - CamBish
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - CamBish/indigenous-mt
+  - CamBish/cambish.github.io
+  - CamBish/KINECAL-Fall-Risk-Assessment

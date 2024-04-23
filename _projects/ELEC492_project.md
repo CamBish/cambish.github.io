@@ -11,16 +11,19 @@ related_publications: true
 #### Overview
 This project explores the integration of Discrete Event Systems (DES) with Reinforcement Learning (RL) to enhance the interpretability of machine learning models. Traditional RL methods can be powerful, but often result in models that lack transparency, known as the "black box" problem. Meanwhile, DES provides a high-level, visual formalism for control and navigation, but lacks flexibility and the ability to learn from data and experiences.
 By combining the formal logic and structure of DES, with the adaptive capabilities of RL, we create a framework to understand _how_ complex RL methods arrive at their decisions.
+
 #### Key Concepts
 - **Discrete Event Systems (DES):** Provide a mathematical framework for modelling and controlling event-driven systems. They offer a well-defined structure for representing complex system behaviour.
 - **Reinforcement Learning (RL):** A subfield of machine learning where agents learn through experience and interaction with an environment to maximize rewards.
 - **Mutual Learning:** Enables cooperative learning among multiple agents, allowing for more efficient exploration and decision-making, especially in partially observable environments.
+
 #### Methodology
 1. **Hybrid DES-RL Model:** Develop a model that combines the strengths of DES (interpretability) and RL (learning capabilities). This model might involve:
     - Representing the RL environment and agent actions as a DES automaton
     - Incorporating reward mechanisms into the DES framework
     - Using DES concepts like controllability and observability to guide RL decision-making
 2. **Mutual Learning:** Implement a mutual learning approach to enable cooperative learning among multiple RL agents with limited information sharing. This could improve exploration efficiency and model performance in complex environments.
+
 #### Significance
 - **Improved Interpretability:** The hybrid model offers insights into the underlying decision-making process of RL agents, enhancing understanding and trust in their outputs.
 - **Mutual Learning Efficiency:** Mutual learning fosters collaboration between agents, leading to better exploration strategies and more robust RL solutions.
@@ -28,6 +31,7 @@ By combining the formal logic and structure of DES, with the adaptive capabiliti
     - Autonomous vehicles
     - Healthcare decision-making
     - Financial systems
+
 #### Next Steps
 - Experiment with different DES-RL model architectures.
 - Evaluate the proposed system in a complex multi-agent search problem.
