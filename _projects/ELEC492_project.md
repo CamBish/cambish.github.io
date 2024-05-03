@@ -34,7 +34,7 @@ By combining the formal logic and structure of DES, with the adaptive capabiliti
 
 #### Next Steps
 - Experiment with different DES-RL model architectures.
-- Evaluate the proposed system in a complex multi-agent search problem.
+- Evaluate the proposed system in a complex multiagent search problem.
 - Conduct rigorous testing and validation to ensure model interpretability and performance.
 
 
